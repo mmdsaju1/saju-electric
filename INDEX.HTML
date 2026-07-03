@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saju Electric</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f5f5f5;
+}
+
+header{
+background:#0d6efd;
+color:white;
+padding:15px;
+text-align:center;
+}
+
+.search{
+padding:15px;
+text-align:center;
+}
+
+.search input{
+width:90%;
+max-width:400px;
+padding:10px;
+font-size:16px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:15px;
+padding:15px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+padding:10px;
+box-shadow:0 2px 8px rgba(0,0,0,.2);
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:150px;
+object-fit:contain;
+}
+
+.price{
+color:red;
+font-size:20px;
+font-weight:bold;
+}
+
+button{
+background:#0d6efd;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:5px;
+cursor:pointer;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Saju Electric</h1>
+<p>গোরস্থান বাজার, লাহিরিপাড়া, বগুড়া সদর</p>
+<p>📞 01862400798</p>
+</header>
+
+<div class="search">
+<input type="text" placeholder="পণ্য খুঁজুন...">
+</div>
+
+<div class="products">
+
+<div class="card">
+<img src="https://via.placeholder.com/200" alt="">
+<h3>LED Bulb 12W</h3>
+<p class="price">৳250</p>
+<p>গ্যারান্টি: ১ বছর</p>
+<button>অর্ডার করুন</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/200" alt="">
+<h3>Switch</h3>
+<p class="price">৳120</p>
+<p>গ্যারান্টি: ৬ মাস</p>
+<button>অর্ডার করুন</button>
+</div>
+
+</div>
+
+<footer>
+Developer by Md SAJU Ahmed
+</footer>
+
+</body>
+</html>
